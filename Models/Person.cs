@@ -3,7 +3,7 @@
 public abstract class Person
 {
     private static int _id;
-    public int Id { get; set; }
+    public int Id { get; }
     public string Name { get; set; }
     public string Surname { get; set; }
     public byte Age { get; set; }

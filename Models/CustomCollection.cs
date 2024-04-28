@@ -14,11 +14,11 @@ public class CustomCollection<T> where T : Person
         {
             if (entity.Id == id)
             {
-                Console.WriteLine($"Name : {entity.Name}\nSurname : {entity.Surname}\nAge : {entity.Age}");
                 found = true;
+                Console.WriteLine($"Name : {entity.Name}\nSurname : {entity.Surname}\nAge : {entity.Age}");
             }
         }
-        if(!found) Console.WriteLine("Employee not found\n");
+        if (!found) Console.WriteLine("Employee not found\n");
     }
     public void GetAll()
     {
